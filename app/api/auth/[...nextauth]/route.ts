@@ -4,9 +4,10 @@ import Auth0Provider from "next-auth/providers/auth0";
 const handler = NextAuth({
   providers: [
     Auth0Provider({
-      clientId: process.env.CLIENT_ID,
-      clientSecret: process.env.CLIENT_SECRET,
-      issuer: process.env.ISSUER,
+      clientId: "5NPEAg43gaXZlo55lNBsJUbs69DIIk9T",
+      clientSecret:
+        "snHyJ6No4uycoHr0Eo4tyJ6m1tmjZUdSJbpfZo-EEdSh3onjfIqVYnP0CIlRXoal",
+      issuer: "https://dev-z4uoszynhmrjv2el.us.auth0.com",
     }),
   ],
 });
